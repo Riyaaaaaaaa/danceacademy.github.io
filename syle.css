@@ -1,80 +1,109 @@
-body{
-    margin: 0px;
-    padding:  0px;
-    background: url('dance 2.jpg') no-repeat center ;
-   background-size: 100vw 100vh;
-    font-family: 'Staatliches', cursive;
-    background-size: cover;
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("dance 3.jpg") no-repeat center;
+  background-size: 100vw 100vh;
+  font-family: "Staatliches", cursive;
+  background-size: cover;
 
-    color: white;
+  color: white;
 }
-.left{
-border: 2px solid red;
-display: inline-block;
-position:absolute;
-top: 20px;
-left: 30px;
-}
-.left img{
-width: 36px;
+.left {
+  
 
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 30px;
 }
-.left div{
-    text align: center ;
+.left img {
+  width: 36px;
 }
-.mid{
-border: 2px solid green;
-display: block;
-margin: 20px auto;
-width: 50%;
-font-size:small;
+.left div {
+  text-align: center;
 }
-.right{
-border: 2px solid blue;
-display: inline-block;
-position: absolute;
-top: 20px;
-right: 30px;
+.mid {
+  
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  font-size: small;
 }
-.navbar{
-    display: inline-block;
+.right {
+  
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  border-radius: 400px;
 }
-.navbar li{
-    display: inline-block;
-    font-size: 25px;
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
 }
 
-.navbar li a{
-    color: white;
-    text-decoration: none;
-    padding: 34px 23px;
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
 }
-.navbar li a:hover, .navbar li a.active{
-    color: yellow;
-    text-decoration: underline;
-    padding: 34px 23px;
+.navbar li a:hover,
+.navbar li a.active {
+  color: yellow;
+  text-decoration: underline;
+  padding: 34px 23px;
 }
-.btn{
-    margin: 0px 4px;
-    background-color: black;
-    color: white;
-    padding: 3px 4px;
-    border: 2px solid grey;
-    border-radius:10px ;
-    cursor: pointer;
+.btn {
+  margin: 0px 4px;
+  background-color: black;
+  color: white;
+  padding: 3px 4px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
 }
-.btn:hover{
-    background-color:rgb(69, 92, 26) ;
+.btn:hover {
+  background-color: rgb(69, 92, 26);
 }
-.container{
-    border: 2px solid grey;
-    margin:50px 60px ;
-    padding: 50px;
-    width:1200px ;
-    border-radius:30px ;
-    color: white;
+.container {
+  border: 2px solid grey;
+  margin: 50px 50px;
+  padding: 50px;
+  width: 400px;
+  border-radius: 30px;
+  color: #6a1b9a;
+  align-content: center;
+  text-align: center;
+  backface-visibility: hidden;
+  background: rgba(252, 252, 249, 0.45);
 }
-.conatiner h1{
-    font-size: 100px;
-    font-family: 'Stint Ultra Condensed', cursive;
+.conatiner h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Stint Ultra Condensed", cursive;
+}
+.form-group input {
+  font-size: 14px;
+
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align: center;
+  display: inline-block;
+  padding: 6px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 9px;
+}
+
+.container button {
+  width: 200px;
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 56px;
+  background-color: #3949ab;
+  color: white;
+  cursor: progress;
 }
